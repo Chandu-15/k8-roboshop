@@ -24,7 +24,7 @@ spec:
     spec:
         containers:
           - name: mongodb
-            image: chandana137/mongodb
+            image: chandana137/mongodb:v1
             imagePullPolicy: Always
             readinessProbe:
               tcpSocket:

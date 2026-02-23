@@ -33,7 +33,7 @@ spec:
     spec:
        containers:
         - name: catalogue
-          image: chandana137/catalogue
+          image: chandana137/catalogue:v1
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
